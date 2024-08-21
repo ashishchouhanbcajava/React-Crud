@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        .img-fit {
+            width: 100%;
+            height: auto;
+        }
+
+        .img-resize {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        @media (max-width: 768px) {
+            .text-md-center {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid" style="background-color: #1c2331;">
+        <div class="color" style="background-color: #1c2331;">
+            <nav class="navbar navbar-expand-sm navbar-light bg-White">
+                <div class="container">
+                    <a class="navbar-brand"
+                        style="font-size: 30px; font-weight: bolder;font-family: monospace; color: white;"
+                        href="#">WELCOME</a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-theme="light"
+                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " href="#" aria-current="page">Home
+                                    <span class="visually-hidden">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="employeemgmt.html">Employee Management</a>
+                            </li>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- ========== Header Start Section ========== -->
+
+            <div class="container mt-5" style="background-color: #1c2331;">
+                <div class="row align-items-md-stretch mt-5">
+                    <div class="col-md-6 mt-5" style="background-color: #1c2331;">
+                        <div class="h-100 p-2 text-white rounded-3 mt-5">
+                            <h2 class="mt-5" style="font-size: 48px;">Change the background</h2>
+                            <p style="font-size: 20px">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti obcaecati aliquam
+                                dicta
+                                labore
+                                dignissimos, magni non unde sapiente, amet ad quisquam cum architecto earum autem
+                                ratione
+                                enim
+                                blanditiis quod est.
+                            </p>
+                            <button class="btn mt-2" style=" background-color: rgb(98, 42, 170) !important;
+   border-radius: 8px; font-size: 20PX;" type="button">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-0">
+                        <div class="h-100 p-3 rounded-2 mt-0" style="background-color: #1c2331;">
+                            <img src="./images/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg" class="rounded-top img-fit"
+                                alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="border"
+                style="border: 1px solid black;padding-top:  25px;padding-left: 30px; margin-top: 400px; border-radius: 9px;padding-right: 30px;padding-bottom: 30px;">
+                <div style="background-color: #4f6eac;border-radius: 10px; padding: 20px;">
+                    <h1 class="text-center text-white">Skills</h1>
+                </div>
+                <hr style="border-top: 2px solid white;border-radius:5px ; margin-top: 20px; margin-bottom: 20px;">
+
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-0">
+                    <div class="col mt-5">
+                        <div class="card mt-5">
+                            <img src="./images/html5-logo-31813.png" class="card-img-top img-resize" alt="...">
+                            <div class="card-body bg-secondary">
+                                <h3 class="card-title">HTML</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+                                    ab minus ducimus accusantium iusto voluptate pariatur molestias, labore magni quas!
+                                    Totam facere voluptate quo aliquid eum officia a cum sapiente.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-5">
+                        <div class="card mt-5">
+                            <img src="./images/css1.png" class="card-img-top img-resize" alt="...">
+                            <div class="card-body bg-secondary">
+                                <h5 class="card-title">CSS</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                                    incidunt rem quidem maxime nisi illo, nesciunt delectus beatae officiis. Temporibus
+                                    mollitia repudiandae eum inventore tempore cum dolorum culpa, voluptas eius.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-5">
+                        <div class="card mt-5">
+                            <img src="./images/javascript-39417.png" class="card-img-top img-resize" alt="...">
+                            <div class="card-body bg-secondary">
+                                <h5 class="card-title">JAVASCRIPT</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
+                                    cupiditate qui eveniet vero delectus itaque quis illum libero corporis sequi,
+                                    dignissimos amet id provident ratione, dolore velit expedita ea earum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-5">
+                        <div class="card mt-5">
+                            <img src="./images/java-logo-1.png" class="card-img-top img-resize" alt="...">
+                            <div class="card-body bg-secondary">
+                                <h5 class="card-title">JAVA</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                                    illum id deleniti dignissimos laudantium hic cupiditate exercitationem autem, dolor
+                                    molestiae provident quos accusamus expedita, ut quaerat architecto vero tempore
+                                    neque?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-5">
+                        <div class="card mt-5">
+                            <img src="./images/icons8-spring-boot-240.png" class="card-img-top img-resize" alt="...">
+                            <div class="card-body bg-secondary">
+                                <h5 class="card-title">SPRINGBOOT</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa
+                                    saepe sunt quod enim tempore harum quae quibusdam delectus ad nesciunt, ullam
+                                    laudantium tenetur vero. Omnis eos eligendi sunt pariatur ab!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-5">
+                        <div class="card mt-5">
+                            <img src="./images/icons8-mysql-240.png" class="card-img-top img-resize" alt="...">
+                            <div class="card-body bg-secondary">
+                                <h5 class="card-title">MYSQL</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                                    excepturi iste reprehenderit, illo cupiditate veniam quas ipsam deleniti at illum,
+                                    pariatur dignissimos quisquam porro repellat repudiandae error, voluptates beatae
+                                    quod!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-5">
+                        <div class="card mt-5">
+                            <img src="./images/icons8-bootstrap-logo-240.png" class="card-img-top img-resize" alt="...">
+                            <div class="card-body bg-secondary">
+                                <h5 class="card-title">BOOTSTRAP</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
+                                    cupiditate qui eveniet vero delectus itaque quis illum libero corporis sequi,
+                                    dignissimos amet id provident ratione, dolore velit expedita ea earum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-5">
+                        <div class="card mt-5">
+                            <img src="./images/React.png" class="card-img-top img-resize" alt="...">
+                            <div class="card-body bg-secondary">
+                                <h5 class="card-title">REACT JS</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                                    libero necessitatibus eaque nulla unde voluptate inventore doloribus voluptatum?
+                                    Voluptatem delectus cum eveniet libero officia odit sed temporibus aliquid
+                                    distinctio atque?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div style="background-color: #08312f; height: 90vh ;" class="container1 container-fluid rounded-3 ">
+            <h1 class="text-center text-white p-4">Our Clients</h1>
+            <div class="row">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <img src="./images/allgo-an-app-for-plus-size-people-Akaz9xK_f2M-unsplash.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body bg-secondary">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer" style="background-color: #1c2331;">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <img src="./images/sebastian-herrmann-NbtIDoFKGO8-unsplash.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body bg-secondary">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card supporting text below as a natural lead-in to
+                                    additional
+                                    content.</p>
+                            </div>
+                            <div class="card-footer" style="background-color: #1c2331;">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card h-100 mb-4">
+                            <img src="./images/shipman-northcutt-sgZX15Da8YE-unsplash.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body bg-secondary">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This card has even longer content than the first
+                                    to
+                                    show that equal height action.</p>
+                            </div>
+                            <div class="card-footer" style="background-color: #1c2331;">
+                                <small class="text-body">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="color2 bg-secondary">
+
+    </div>
+
+    <!-- ========== Footer Start Section ========== -->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white mt-0" style="background-color: #1c2331">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-between p-4" style="background-color: #262431">
+            <!-- Left -->
+            <div class="me-5">
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold">Company name</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            Here you can use rows and columns to organize your footer
+                            content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Products</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            <a href="#!" class="text-white">MDBootstrap</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">MDWordPress</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">BrandFlow</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Bootstrap Angular</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Useful links</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            <a href="#!" class="text-white">Your Account</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Become an Affiliate</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Shipping Rates</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Contact</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                        <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- Footer -->
+
+
+
+    <!-- End of .container -->
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
